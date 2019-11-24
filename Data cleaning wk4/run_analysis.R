@@ -40,4 +40,4 @@ data_subset <- bind_cols(activity_combined,subject_combined,data_subset)
 # average of each variable for each activity and each subject.
 data_summarised <- data_subset %>% group_by(activity_name,subject_label) %>% summarise_all(mean)
 
-write.table(data_summarised,file = "summary.txt")
+write.table(data_summarised,file = "summary.txt", row.name=FALSE)
