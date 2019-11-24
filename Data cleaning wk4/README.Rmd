@@ -1,0 +1,24 @@
+---
+title: "README"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+Read the column names for the entire table. 
+
+Read the train and test tables and combine them
+
+Read the activity list and add a new column which describes the activity
+
+Read the subject list
+
+Extract columns which have ".mean" and ".std" in its name. Because "-" is subed by "." when importing
+
+Add the activity name cols to the subset data
+
+Average of each variable for each activity and each subject.
