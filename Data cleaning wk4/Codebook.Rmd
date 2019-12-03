@@ -1,0 +1,22 @@
+---
+title: "Codebook"
+output: md_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+_combined: suffix indicates combined test and train data
+
+data: Prefix indicates Raw X_train or X_test data files
+
+activity: Prefix indicates train and test activity data
+
+subject: Prefix indicates subject data
+
+data_subset: subset of data for mean and std only
+
+data_summarised: sumarized data
