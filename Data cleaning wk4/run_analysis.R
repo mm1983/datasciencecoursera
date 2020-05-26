@@ -6,7 +6,7 @@
 # average of each variable for each activity and each subject.
 
 library(dplyr)
-library(tidyr)
+library(tidyr) 
 
 # Read the column names for the entire table
 column_names <- as.character(read.table("UCI HAR Dataset/features.txt")$V2) 
