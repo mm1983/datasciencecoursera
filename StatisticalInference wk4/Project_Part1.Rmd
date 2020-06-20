@@ -13,7 +13,7 @@ editor_options:
   chunk_output_type: console
 ---
 ## Overview:
-In this report I will apply the Central Limit Theorem (CLT) to Exponential distribution and show via a smiluation that mean of 40 exponential distributions is normal as predicted by CLT. Further I will estimate the mean and variance expected from applying the CLT to the Exponential dustribution. 
+In this report I will apply the Central Limit Theorem (CLT) to Exponential distribution and show via a smiluation that mean of 40 exponential distributions is normal as predicted by CLT. Further, I will estimate the mean and variance expected from applying the CLT to the Exponential dustribution. 
 
 ## Simulations:
 First I computed the mean of the 40 samples from an exponential distribution with known rate. This computation was repeated 1000 times by using the "sapply" function and the data stored in variable sim. The plot below shows what a 1000 sample histogram from the exponential distribution will look like. 
